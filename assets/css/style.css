@@ -1,0 +1,941 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0px;
+}
+
+
+
+/* Backgrounds */
+
+
+.blueBg{
+    background-color: #04367D;
+}
+
+.darkBlueBg{
+    background-color: #04306E;
+}
+
+.orangeBg{
+    background-color: #FD7522;
+}
+
+.greyBg{
+    background-color:#F2F2F2;
+}
+
+
+
+/* Diseño general */
+
+
+h3{
+    color: #04367D;
+    text-align: center;
+    font: normal normal 300 32px/30px Roboto Condensed;
+}
+
+.globalPadding{
+    margin-right:0px;
+    margin:0px;
+    padding: 0px 62px;
+
+}
+
+.img-border-grey{
+    display:flex;
+    height:337px;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid rgba(112,112,112,0.3);
+}
+
+div .nombre-producto{
+    font: normal normal normal 22px/30px Roboto Condensed;
+    color: #04367D;
+}
+
+
+.orange-button{
+    margin: 41px 0px 47px 62px;
+    background-color: #FD7522;
+}    
+
+
+.orange-button{
+    margin-top:0px;
+    color:white;
+    height: 20px;
+} 
+
+
+/* Header */
+
+
+.header-top{
+    height:35px;
+    font-size: 13px;
+    color:white;
+    font: normal normal 300 13px/30px Poppins;
+    letter-spacing: 0.43px;
+    padding: 0px 62px;
+}
+
+.header-top-box{
+    display:flex;
+
+}
+
+.header-top-item{
+    display:flex;
+    align-items: center;
+    height:35px;
+}
+
+.header-top-item p{
+    margin-bottom:0px;
+    margin-left:6px;
+}
+
+.header-top svg{
+    height:13px;
+    width:13px;
+    fill:#D4E0EA;
+    margin-left: 10px;
+}
+
+.header-top i{
+    margin-left: 17px;
+    margin-right:1px;
+    width: 11px;
+    height: 11px;
+}
+
+
+
+/* Nav */
+
+
+nav{
+    height:119px;
+    padding: 0px 62px;
+    font-size:13px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+    height:81px;
+    width:223px;
+    margin-right: 100px;
+}
+
+.nav .nav-item{
+    height:119px;
+}
+
+.nav .nav-item .nav-link{  
+    height:119px;
+}
+
+.nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    transition: .1s;
+    color:#707070;
+    font: normal normal normal 14px/30px Roboto Condensed;
+}
+
+.nav a:hover{ 
+    color:#707070;
+    border-bottom: 3px solid #FD7522;
+    font: normal normal bold 14px/30px Roboto Condensed;
+}
+
+.nav-link{
+    margin-left:21px;
+    padding:0px;
+}
+
+nav i{
+    width: 14px;
+    height: 13px;
+}
+
+.nav  .nav-item-active a{ 
+    color:#707070;
+    border-bottom: 3px solid #FD7522;
+    font: normal normal bold 14px/30px Roboto Condensed;
+}
+
+/* Header Bottom */
+
+.header-bottom{
+    display:flex;
+    align-items:center;
+    height: 40px;
+    background: rgba(236, 239, 245, 0.43)
+}
+
+.header-bottom{
+    padding: 0px 62px;
+}
+
+.header-bottom a{
+    font: normal normal normal 14px/30px Roboto Condensed;
+    color: #04367D;
+    text-decoration:none;
+}
+
+.header-bottom a::after{
+    content:" | ";
+    margin-right:3px;
+}
+
+.header-bottom .active-link{
+    font: normal normal 300 14px/30px Roboto Condensed;
+}
+
+.header-bottom .active-link::after{
+    content:"";
+}
+
+
+
+
+
+/* Carousel */
+
+
+.carousel-inicio{
+    height:617px;
+}
+
+.carousel-inicio .carousel-inner{
+    height:617px;
+}
+
+.carousel-inicio .carousel-indicators{
+    margin-bottom:61px;
+}
+
+.carousel-inicio button.btn-carousel{
+    width: 16px;
+    height: 16px;
+    border-radius:50%;
+}
+
+.carousel-inicio h1{
+    text-transform: uppercase;
+    font: normal normal normal 53px/41px Roboto Condensed;
+}
+
+.carousel-inicio p{
+    font: normal normal 300 30px/41px Roboto Condensed;
+    margin-bottom:0px;
+    padding-bottom:221px;
+}
+
+
+
+/* Sección Equipos Destacados */
+
+
+.section-equipos-destacados{
+    background-color:white;
+    height:601px;
+    padding: 50px 62px  19px 62px;
+}
+
+.img-border-grey img{
+    width:100%;
+}
+
+.section-equipos-destacados .img1{
+    width: 301px;
+    height: 194px;
+}
+
+.section-equipos-destacados h3{
+    margin-bottom:35px;
+}
+
+.section-equipos-destacados p{
+    margin-top:22px;
+}
+
+
+
+/* Sección Libellula */
+
+
+.section-libellula{
+    height:496px;
+    display:flex;
+    padding: 85px 46px 76px 72px;
+
+
+}
+
+.section-libellula img{
+    width: 515px;
+    height: 335px;   
+}
+
+.section-libellula p{
+    font: normal normal normal 39px/45px Roboto Condensed;
+    color: #04367D;
+    padding-top:10px;     
+}
+
+.section-libellula h2{    
+    font: normal normal 300 28px/45px Roboto Condensed;
+    letter-spacing: 0px;
+    color: #FD7522;
+    margin-top:16.5px;
+}
+
+.borde-info{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: 1px solid #FD7522;
+    margin-top:50.47px;
+    width: 241px;
+    height: 48px;
+}
+
+.borde-info p{
+    margin-bottom:0px;
+    font: normal normal bold 15px/20px Roboto Condensed;
+    letter-spacing: 0.6px;
+    padding-top:0px;
+    color: #FD7522;
+}
+
+
+
+/* Sección Nuestra Misión */
+
+
+.section-nuestra-mision{
+    padding:70px 168px;
+    height:377px;
+    background-color:white;
+    text-align: center;
+    color: #04367D;
+}
+
+.section-nuestra-mision p{
+    font: normal normal 300 24px/41px Roboto Condensed;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-top:44px;
+}    
+
+hr{
+    color: rgba(112,112,112,0.8);
+    margin-bottom:10px;
+}
+
+
+
+/* Sección Nuestros Productos */
+
+
+.section-nuestros-productos{
+    padding: 50px 62px  19px 62px;
+}
+
+.section-nuestros-productos h3{
+    margin-bottom:68px;
+}
+
+.section-nuestros-productos p{
+    margin-bottom:65px;
+    margin-top:22px;
+}
+
+.section-nuestros-productos .img-soldadura{
+    width: 219px;
+    height: 256px;
+}
+
+
+
+/* Footer */
+
+
+.footer-top{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:75px;
+    color:white;
+}
+
+.footer-top .icon-border{
+    border: 1px solid white;
+    width: 34px;
+    height: 34px;
+    margin-left: 19px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    font-size:18px;
+}
+
+.fa-facebook-f{
+    font-size:15px;
+}
+
+.fa-youtube{
+    font-size:15px;
+}
+
+
+
+.footer-info{
+    height:204px;
+    font: normal normal 300 14px/36px Roboto Condensed;
+    color: #F9F9F9;
+}
+
+.footer-info col{
+    
+    height:204px;
+}
+
+.footer-info .footer-box{
+    padding: 36px 28px 64px 61px;
+}
+
+.footer-info p{
+    margin-bottom:6px;
+    height:17px;
+}
+
+.footer-info h5{
+    height:20px;
+    margin-bottom:17;
+    font: normal normal normal 15px/36px Roboto Condensed;
+    letter-spacing: 0px;
+    color: #D4E0EA;
+    margin-bottom:17px;
+}
+
+
+.footer-info .input-box{
+    display:flex;
+    align-items: center;
+    position:relative;
+    padding-left:26px;
+    margin-top:5px;
+    width: 342px;
+    height: 45px;
+    border-radius:60px;
+    background:white;
+
+}
+
+.footer-info input{
+    font: normal normal 300 12px/16px Roboto Condensed;
+    letter-spacing: 0px;
+    color: #04367D;
+    outline: none;
+    border: 0;
+}
+
+.input-box button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left:87%;
+    height:45px;
+    border:none;
+    border-radius: 0 60px 60px 0;
+    width: 45px;
+}
+
+.input-box button i{
+    color:white;
+    font-size:30px;
+    margin-left:8px;
+}
+
+.col-contact{
+    padding-left: 91px;
+}
+
+.item-contact{
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    margin-top:7px;
+}
+
+.item-contact p{
+    margin:0px;
+}
+
+.fa-map-marker-alt{
+    width: 12px;
+    height: 15px;
+}
+
+.fa-envelope{
+    width: 18px;
+    height: 14px;
+}
+
+.footer-info i{
+    margin-right:9px;
+}
+.footer-info svg{
+    width: 15px;
+    height: 15px;
+    fill:white;
+    margin-right:10px;
+}
+
+.footer-info .fa-whatsapp{
+    width: 14px;
+    height: 14px;
+}
+
+
+
+
+
+.footer-bottom{
+    height:32px;
+    display:flex;
+    align-items:center;
+    padding-left:61px;
+}
+
+.footer-bottom p{
+    margin:0px;
+    font: normal normal 300 12px/36px Roboto Condensed;
+    color: #F9F9F9;
+    height:32px;
+}
+
+
+
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1349px;
+}}
+
+
+
+
+/* Página EMPRESA */
+
+
+
+
+.carousel-empresa .carousel-item-box{
+
+    width: 100%;
+    height: 400px;
+    position:relative;
+}
+
+
+.carousel-empresa  .img-box{
+    background-image: url("../img/carousel-empresa.png");
+    background-size: cover;
+    background-position: center 60%; 
+    width: 1349px;
+    height: 400px;
+}
+
+
+.carousel-empresa  .backgroun-color-img{
+    background: rgb(69,58,56);
+    background: linear-gradient(90deg, rgba(69,58,56,0) 0%, rgba(69,58,56,0.24413515406162467) 3%, rgba(69,58,56,0.4206057422969187) 5%, rgba(69,58,56,0.577468487394958) 8%, rgba(69,58,56,0.7791491596638656) 11%, rgba(69,58,56,0.8743872549019608) 13%, rgba(69,58,56,0.9612219887955182) 16%, rgba(69,58,56,1) 18%);height:400px;
+    width:290px;
+    position:absolute;
+    top: 0;
+    right: 0px;
+
+}
+
+.carousel-empresa button.btn-carousel{
+    width: 16px;
+    height: 16px;
+    border-radius:50%;
+}
+
+
+
+.section-empresa{
+    font: normal normal 300 15px/20px Roboto Condensed;
+    color: #707070;
+    padding: 46px 50px 44px 60px;
+}
+
+.section-empresa h4{
+    font: normal normal normal 15px/20px Roboto Condensed;
+    color: #FD7522;
+    margin-bottom:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA PRODUCTOS */
+
+
+
+.section-nuestros-productos .img-active {
+    position:relative;
+    z-index:-1;
+}
+
+.section-nuestros-productos .img-active::after{
+    content:"+";
+    display:flex; 
+    justify-content:center; 
+    align-items: center;
+    font-size:60px;
+    position:absolute;
+    font-weight: lighter;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #08316b27;
+    color:white;
+    z-index:1;
+}
+
+
+/* PAGINA PLASMA Y OXICORTE */
+
+
+.section-plasma-oxicorte {
+    font: normal normal 300 23px/30px Roboto Condensed;
+    color: #707070;
+    height:775px;
+}
+
+.section-plasma-oxicorte h3{
+    margin-bottom: 47px;
+}
+
+.section-plasma-oxicorte .borde-info{
+    background-color: #FD7522;
+    margin-top:20px;
+}    
+
+.section-plasma-oxicorte p{  
+    height: 90px;
+}  
+
+.section-plasma-oxicorte .borde-info p{
+    margin-top:0px;
+    color:white;
+    height: 20px;
+}    
+
+.section-plasma-oxicorte .borde-info a {
+    text-decoration: none;
+}   
+
+.table-plasma-oxicorte{
+    width: 1231px;
+    margin: 96px auto 64px auto;
+    font: normal normal 300 20px/30px Roboto Condensed;
+    color: #707070;
+    text-align: center;
+}
+
+
+tbody th{
+    font: normal normal normal 20px/30px Roboto Condensed;
+    color: #04367D;
+    text-align: left;
+    padding: 11px 35px;
+}
+
+
+
+.table-plasma-oxicorte thead th{
+    color:white;
+    height:62px;
+    font: normal normal normal 22px/30px Roboto Condensed;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.table-plasma-oxicorte h4{
+    font: normal normal bold 20px/30px Roboto Condensed;
+    letter-spacing: 0px;
+    color: #04367D;
+    text-transform: uppercase;
+    margin:0px;
+}
+
+.table-plasma-oxicorte .or1{
+    background-color: #FD914E;
+}
+
+.table-plasma-oxicorte .or2{
+    background-color: #FEAC7A;
+}
+
+.table-plasma-oxicorte tr:nth-child(odd) .a{
+    background-color: #F4F6F9;
+}
+
+.table-plasma-oxicorte tr:nth-child(odd) .b{
+    background-color: #F7F9FB;
+}
+
+.table-plasma-oxicorte tr:nth-child(even) .a{
+    background-color: #ECEFF5;
+}
+
+.table-plasma-oxicorte tr:nth-child(even) .b{
+    background-color: #F2F4F8;
+}
+
+
+
+
+/* PÁGINA SAMPLE CUT */
+
+
+.section-sample-cut{
+    /* display:flex;
+    justify-content:space-between; */
+    background-color:#09387B0B;
+    height:424px;
+    padding:20px 0 56px 16px;
+
+}
+
+
+.section-sample-cut h3{
+    text-align: left;
+}
+
+.section-sample-cut p{
+    font: normal normal 300 23px/30px Roboto Condensed;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    width: 269px;
+    height: 48px;
+
+}
+
+.button p{
+    font: normal normal bold 15px/20px Roboto Condensed;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.section-carecteristicas{
+    margin-left:62px;
+}
+
+.section-carecteristicas h3, .section-display-corte h3{
+    margin: 66px 0px;
+    text-align: left;
+    font: normal normal 300 25px/30px Roboto Condensed;
+    color: #04367D;
+}
+
+.section-carecteristicas ul, .section-display-corte ul{
+    color:#FD7522;
+    list-style-type: square;
+    font-size: 40px;
+
+}
+.section-carecteristicas span, .section-display-corte span{
+    font: normal normal normal 18px/30px Roboto Condensed;
+    color: #707070;
+}
+
+
+
+
+
+
+
+
+.section-display-corte{
+    margin-top:79px;
+    background-color:#09387B0B;
+}
+
+.section-display .img-box{
+    background-image: url("../img/display.jpg");
+    background-position: center 20%; 
+}
+
+.section-corte .img-box{
+    background-image: url("../img/corte.jpg");
+}
+
+.section-display-corte .img-box{
+    width:50%;
+    height:329px;
+    background-size: cover; 
+}
+
+
+.section-display, .section-corte{
+    display:flex;
+    justify-content: space-between;
+    height:329px;
+}
+
+.section-display-corte h3{
+    font: normal normal normal 25px/30px Roboto Condensed;
+    text-align: left;
+    margin-bottom:38px;
+    margin-top:0px;
+}
+
+.section-display-corte .text-box{
+    margin: 42px 69px;
+}
+
+.section-display-corte li{
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-características-tecnicas{
+    margin-top:70px;
+    height: 404px;
+}
+
+.section-características-tecnicas h3{
+    text-align: left;
+    padding-left: 62px;
+    font: normal normal 300 25px/30px Roboto Condensed;
+}
+
+.section-características-tecnicas img{
+
+    margin:26px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-table-especificaciones-tecnicas{
+    width: 1331px;
+    margin-bottom: 47px;
+}
+
+.box-table-especificaciones-tecnicas .button{
+    margin-top: 41px;
+}
+.table-especificaciones-tecnicas{
+    width:100%;
+}
+.table-especificaciones-tecnicas thead th{
+    background:#04306E;
+    font: normal normal normal 22px/30px Roboto Condensed;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 16px 21px;
+    text-transform: uppercase;
+    
+}
+
+.table-especificaciones-tecnicas tbody .table-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font: normal normal 300 20px/30px Roboto Condensed;
+    color: #707070;
+}
+
+
+
+.table-especificaciones-tecnicas td, .table-especificaciones-tecnicas th{
+    border-left: 1px solid white;
+}
+
+.table-especificaciones-tecnicas td{
+    width:50%;
+    padding: 12px 21px;
+} 
+
+.table-especificaciones-tecnicas h4{
+    font: normal normal normal 20px/30px Roboto Condensed;
+    color: #04367D;
+}
+
+.table-especificaciones-tecnicas p, .table-especificaciones-tecnicas h4{
+    margin:0;
+}
+.table-especificaciones-tecnicas tr:nth-child(odd) {
+    background-color: #F4F6F9;
+}
+
+.table-especificaciones-tecnicas tr:nth-child(even) {
+    background-color: #ECEFF5;
+}
+
